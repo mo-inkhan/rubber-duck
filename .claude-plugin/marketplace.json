@@ -1,0 +1,32 @@
+{
+  "name": "rubber-duck",
+  "owner": {
+    "name": "Moin Khan"
+  },
+  "plugins": [
+    {
+      "name": "rubber-duck",
+      "description": "A Socratic thinking partner that helps you reason through problems yourself — one question at a time.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Moin Khan",
+        "email": "mo.inkhan@aol.com"
+      },
+      "homepage": "https://mo-inkhan.github.io/rubber-duck-docs",
+      "repository": "https://github.com/mo-inkhan/rubber-duck",
+      "license": "MIT",
+      "keywords": [
+        "socratic",
+        "rubber-duck",
+        "debugging",
+        "learning",
+        "thinking-partner"
+      ],
+      "category": "learning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mo-inkhan/rubber-duck.git"
+      }
+    }
+  ]
+}
