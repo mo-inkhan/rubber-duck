@@ -8,6 +8,13 @@
 set -euo pipefail
 
 PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Convert Git Bash Unix-style path to Windows path if needed
+if command -v cygpath &>/dev/null; then
+  PLUGIN_DIR="$(cygpath -w "$PLUGIN_DIR")"
+elif [[ "$PLUGIN_DIR" =~ ^/[a-zA-Z]/ ]]; then
+  PLUGIN_DIR="$(echo "$PLUGIN_DIR" | sed 's|^/\([a-zA-Z]\)/|\1:/|')"
+fi
+PLUGIN_DIR="${PLUGIN_DIR//\\/\/}"
 CLAUDE_DIR="${HOME}/.claude"
 
 GREEN='\033[0;32m'

@@ -11,7 +11,9 @@
     "commands/",
     "skills/",
     "hooks/",
-    ".claude-plugin/"
+    ".claude-plugin/",
+    "install.sh",
+    "uninstall.sh"
   ],
   "engines": {
     "node": ">=18"

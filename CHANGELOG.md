@@ -18,5 +18,6 @@ Initial release.
 - `/duck:design` — architecture thinking mode
 - `/duck:status` — session summary
 - `/duck:reveal` — break glass, get the full answer
+- `/duck:sessions` — view past session history and streaks
 - Streak tracking via `SessionEnd` hook
 - Session logs at `~/.rubber-duck/sessions/`

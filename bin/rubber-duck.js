@@ -12,7 +12,7 @@ const os = require('os');
 
 const PLUGIN_DIR = path.join(__dirname, '..');
 const CLAUDE_DIR = path.join(os.homedir(), '.claude');
-const HOOK_CMD = `node ${path.join(PLUGIN_DIR, 'hooks', 'session-logger.js')}`;
+const HOOK_CMD = `node ${path.join(PLUGIN_DIR, 'hooks', 'session-logger.js').replace(/\\/g, '/')}`;
 
 const GREEN = '\x1b[32m';
 const MUTED = '\x1b[90m';
@@ -38,7 +38,7 @@ function install() {
   );
   check('commands/duck.md');
 
-  for (const name of ['design.md', 'status.md', 'reveal.md']) {
+  for (const name of ['design.md', 'status.md', 'reveal.md', 'sessions.md']) {
     copyFile(
       path.join(PLUGIN_DIR, 'commands', 'duck', name),
       path.join(CLAUDE_DIR, 'commands', 'duck', name)

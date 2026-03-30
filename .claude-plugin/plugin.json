@@ -11,7 +11,8 @@
     "commands/duck.md",
     "commands/duck/design.md",
     "commands/duck/status.md",
-    "commands/duck/reveal.md"
+    "commands/duck/reveal.md",
+    "commands/duck/sessions.md"
   ],
   "agents": [
     "agents/rubber-duck.md"

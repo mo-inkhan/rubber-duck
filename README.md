@@ -47,6 +47,7 @@ bash install.sh
 | `/duck:design [topic]` | Design mode — think through architecture and tradeoffs. |
 | `/duck:status` | See a structured summary of what you've figured out so far. |
 | `/duck:reveal` | Break glass. Exit Rubber Duck mode and get the full answer. |
+| `/duck:sessions` | View past session history — streaks, peek log, and recent activity. |
 
 ---
 
@@ -143,14 +144,11 @@ PRs welcome. Especially interested in:
 
 ## Updating
 
-**Via marketplace:**
-```
-/plugin update rubber-duck
-```
-
-**Via npm:**
+**Via git:**
 ```bash
-npx @mo-inkhan/rubber-duck
+cd rubber-duck/plugin
+git pull
+bash install.sh
 ```
 
 Re-running the installer is safe — it overwrites plugin files and skips hook registration if already present.
