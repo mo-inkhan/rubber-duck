@@ -1,5 +1,7 @@
 ---
+name: duck
 description: Enter Rubber Duck mode — Claude becomes a Socratic thinking partner. It asks questions instead of giving answers, helping you reason through problems yourself. Pass an optional problem description, or just start typing.
+trigger: explicit
 allowed-tools: Read, Grep, Glob, LS
 ---
 <!--

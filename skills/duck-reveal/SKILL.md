@@ -1,5 +1,7 @@
 ---
+name: duck:reveal
 description: Exit Rubber Duck mode and get the full answer. Acknowledges what you figured out yourself, then fills in the rest.
+trigger: explicit
 ---
 <!--
   Copyright (c) 2026 Moin Khan

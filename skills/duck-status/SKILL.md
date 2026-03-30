@@ -1,5 +1,7 @@
 ---
+name: duck:status
 description: Show a structured summary of the current rubber-duck session — what you've figured out, what's still open, and where you are.
+trigger: explicit
 allowed-tools: Read, Grep, Glob, LS
 ---
 <!--

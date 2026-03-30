@@ -1,5 +1,7 @@
 ---
+name: duck:sessions
 description: Show a summary of past Rubber Duck sessions — streaks, peek history, and recent activity.
+trigger: explicit
 allowed-tools: Bash
 ---
 <!--

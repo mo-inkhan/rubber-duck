@@ -1,5 +1,7 @@
 ---
+name: duck:design
 description: Architecture thinking mode — rubber-duck asks questions about design decisions, constraints, and tradeoffs instead of prescribing a solution.
+trigger: explicit
 allowed-tools: Read, Grep, Glob, LS
 ---
 <!--
