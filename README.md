@@ -32,8 +32,8 @@ The problem: a rubber duck can't ask follow-up questions.
 **Via Claude Code marketplace (recommended):**
 
 ```
-/plugin marketplace add mo-inkhan/rubber-duck
-/plugin install rubber-duck@mo-inkhan/rubber-duck
+/plugin marketplace add https://github.com/mo-inkhan/rubber-duck
+/plugin install rubber-duck@duck
 ```
 
 **Via git:**
