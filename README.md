@@ -29,17 +29,13 @@ The problem: a rubber duck can't ask follow-up questions.
 
 ## Install
 
-**Preferred — inside Claude Code:**
-
-```
-/plugin marketplace add https://github.com/mo-inkhan/rubber-duck
-```
-
-**Via CLI (terminal, CI, or any environment):**
-
 ```bash
-npx @mo-inkhan/rubber-duck
+git clone https://github.com/mo-inkhan/rubber-duck
+cd rubber-duck/plugin
+bash install.sh
 ```
+
+> Marketplace and `npx` installation coming soon.
 
 ---
 
