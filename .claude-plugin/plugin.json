@@ -1,0 +1,23 @@
+{
+  "_copyright": "Copyright (c) 2026 Moin Khan",
+  "_license": "MIT",
+  "_repository": "https://github.com/mo-inkhan/rubber-duck",
+  "name": "rubber-duck",
+  "version": "1.0.0",
+  "description": "A Socratic thinking partner that helps you reason through problems yourself — one question at a time.",
+  "author": "Moin Khan",
+  "license": "MIT",
+  "commands": [
+    "commands/duck.md",
+    "commands/duck/design.md",
+    "commands/duck/status.md",
+    "commands/duck/reveal.md"
+  ],
+  "agents": [
+    "agents/rubber-duck.md"
+  ],
+  "skills": [
+    "skills/rubber-duck/SKILL.md"
+  ],
+  "hooks": "hooks/hooks.json"
+}

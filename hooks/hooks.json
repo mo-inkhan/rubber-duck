@@ -1,0 +1,17 @@
+{
+  "_copyright": "Copyright (c) 2026 Moin Khan",
+  "_license": "MIT",
+  "_repository": "https://github.com/mo-inkhan/rubber-duck",
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node {{PLUGIN_DIR}}/hooks/session-logger.js"
+          }
+        ]
+      }
+    ]
+  }
+}
